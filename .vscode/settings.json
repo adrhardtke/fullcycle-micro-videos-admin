@@ -11,5 +11,9 @@
                 "export PATH=$PATH:/usr/lib/sdk/dotnet7/bin:/usr/lib/sdk/node18/bin; bash"
             ]
         }
-    }
+    },
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true 
+    },
 }
